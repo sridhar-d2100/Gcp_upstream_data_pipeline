@@ -7,11 +7,4 @@ Collecting data sources
 3. Static files located  in drives by reading via spark .
 4. real time data is consumed by kakfka .
 
-File formats handled 
-1.json
-2.xml
-3.csv
-4.xlxs
-5.parquet
-
-
+File formats handled - json,xml,csv,xlxs,parquet.
