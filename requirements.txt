@@ -1,0 +1,12 @@
+# HTTP requests and async processing
+requests==2.28.2
+aiohttp==3.8.3
+
+# Logging utilities
+logging==0.4.9.6
+
+# Google BigQuery client library
+google-cloud-bigquery==3.6.0
+
+# PySpark for handling Spark-related operations
+pyspark==3.5.0
