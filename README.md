@@ -9,7 +9,10 @@ Collecting data sources
 
 File formats handled - json,xml,csv,xlxs,parquet.
 
-Deployment - once code is pused into github .And Airflow Dag is changed ,the pipeline is triggered .Both the case 
-1.Change in pyspark code 
+Deployment - once code is pused into github .And Airflow Dag is changed ,the pipeline is triggered .Both the case ,
+
+1.Change in pyspark code .
+
 2.Change in the airflow dag task code as well
-Primarily utlised Tek-ton pipeline is used .But setting the configuration in the yaml file 
+
+Primarily utilized Tek-ton pipeline.where setting up the configuration is done via yaml file .
