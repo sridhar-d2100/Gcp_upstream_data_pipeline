@@ -1,4 +1,5 @@
 
+
 # **GCP Upstream Data Pipeline** 🚀  
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg?logo=python)  
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.x-orange.svg?logo=apachespark)  
@@ -15,32 +16,19 @@ A scalable and robust data pipeline that uses **Google Cloud Platform (GCP)** fo
 1. **Backend Systems**:  
    - Collect data via HTTP GET requests.  
    - Process the data using Spark DataFrames.  
-   - ![HTTP Icon](https://img.icons8.com/color/48/null/http.png)  
-
+  
 2. **Microsoft SQL Server**:  
    - Connect and fetch data using **Spark JDBC**.  
-   - ![SQL Icon](https://img.icons8.com/color/48/null/database.png)  
-
+ 
 3. **Static Files**:  
    - Read files stored in drives with Spark.  
-   - ![File Icon](https://img.icons8.com/color/48/null/file.png)  
 
 4. **Real-Time Data**:  
    - Consume streams using **Kafka**.  
-   - ![Kafka Icon](https://img.icons8.com/color/48/null/streaming.png)  
 
 ---
 
-### 📂 **Supported File Formats**  
-| Format  | Example Use Cases |  
-|---------|-------------------|  
-| 🟢 JSON  | API responses, logs |  
-| 🟡 XML   | Legacy systems, configurations |  
-| 🔵 CSV   | Tabular data, reports |  
-| 🟣 XLSX  | Excel sheets |  
-| 🟠 Parquet | Big data storage, analytics |  
 
----
 
 ## **⚙️ Deployment Workflow**  
 
@@ -54,7 +42,6 @@ A scalable and robust data pipeline that uses **Google Cloud Platform (GCP)** fo
 - **Apache Airflow**: Schedules and triggers workflows.  
 - **Tekton Pipelines**: Manages CI/CD with YAML-based configurations.  
 
-![Pipeline Workflow](https://via.placeholder.com/800x400.png?text=Insert+Pipeline+Image+Here)  
 
 ---
 
@@ -69,25 +56,7 @@ A scalable and robust data pipeline that uses **Google Cloud Platform (GCP)** fo
 
 ---
 
-## **📊 Example Output**  
-Here’s a sample of what the pipeline processes:  
 
-```json
-{
-  "job_id": "12345",
-  "source": "SQL Server",
-  "file_type": "CSV",
-  "status": "Processed",
-  "rows_ingested": 100000
-}
-```
-
----
-
-### **📸 Visual Overview**  
-![Visual Diagram](https://via.placeholder.com/800x400.png?text=Insert+Pipeline+Architecture+Diagram+Here)  
-
----
 
 ## **🚀 Get Started**  
 1. Clone the repository:  
@@ -97,3 +66,6 @@ Here’s a sample of what the pipeline processes:
    ```  
 2. Install dependencies and follow the setup guide.  
 3. Push changes to GitHub to trigger the pipeline.  
+
+---
+
